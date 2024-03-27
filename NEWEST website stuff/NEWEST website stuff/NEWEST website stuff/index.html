@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of MBM Manipal, Student Team at Manipal Institute of Technology">
+    <meta name="keywords" content="MBM, Manipal, Biomachines Club,Biomachines team">
+    <title>Manipal Biomachines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bemirs&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+   <section class="header">
+     <nav>
+        <a href="index.html"><img src="IMAGES dump/manipal_biomachines_logo-removebg-preview.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Research</a></li>
+                <li><a href="">Achievements</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+
+<div class="text-box">
+        <h1><span class="WeAreColor">We are</span></h1>
+        <h1><span class="TitlesWhiteBG">Manipal</span><br><span class="TitlesWhiteBG"> Biomachines</span></h1>
+    </div>
+<section class="carousel">
+
+    <div class="container">
+        <span class="slider" id="slider1"></span>
+        <span class="slider" id="slider2"></span>
+        <span class="slider" id="slider3"></span>
+        <span class="slider" id="slider4"></span>
+        <span class="slider" id="slider5"></span>
+        <span class="slider" id="slider6"></span>
+  
+        <div class="imgcontainer">
+          <div class="slide_div" id="slide_1">
+              <img src="images.jpg" alt="" class="img" id="img1">
+              <a href="#slider1" class="button" id="button1"></a> 
+           </div>
+           <div class="slide_div" id="slide_2">
+              <img src="images.jpg" alt="" class="img" id="img2">
+              <a href="#slider2" class="button" id="button2"></a> 
+           </div>
+           <div class="slide_div" id="slide_3">
+              <img src="images.jpg" alt="" class="img" id="img3">
+              <a href="#slider3" class="button" id="button3"></a> 
+           </div>
+           <div class="slide_div" id="slide_4">
+              <img src="images.jpg" alt="" class="img" id="img4">
+              <a href="#slider4" class="button" id="button4"></a> 
+           </div>
+           <div class="slide_div" id="slide_5">
+              <img src="images.jpg" alt="" class="img" id="img5">
+              <a href="#slider5" class="button" id="button5"></a> 
+           </div>
+           <div class="slide_div" id="slide_6">
+              <img src="images.jpg" alt="" class="img" id="img6">
+              <a href="#slider6" class="button" id="button6"></a> 
+           </div>
+          <div class="slide_div" id="slide_7">
+             <img src="images.jpg" alt="" class="img" id="img7">
+             <a href="#slider7" class="button" id="button7"></a> 
+          </div>
+        </div>
+  
+  </div>
+
+</section>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
